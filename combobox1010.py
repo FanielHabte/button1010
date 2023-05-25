@@ -19,4 +19,7 @@ items = ["item1", "item2","item3","time4","item5"]
 combo_box = ttk.Combobox(root, values=items)
 #Bind the the event to the function 
 combo_box.bind("<<ComboboxSelected>>", on_select)
+
+combo_box.pack()
+
 root.mainloop()
